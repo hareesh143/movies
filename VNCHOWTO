@@ -1,0 +1,14 @@
+TO change our VNC password we can do:
+$ vncpasswd
+This will prompt you to create a strong password that you will need to remember for connecting to your linux academy lab server via a VNC Client Application.
+
+Before proceeding reboot your linux server.
+After a few minutes you can ssh back to your server.
+
+In order to connect to the VNC session you will need a VNC viewer application.
+Realvnc.com offers free viewers.  They have installers for linux, windows, and OSX.
+
+After downloading and installing the VNC viewer to connect to your lab server IP followed by the port.
+The port for this VNC session should be :5901
+
+So for example 192.192.192.192:5901 is what you would use to connect to your lab server if your IP was 192.192.192.192 *Please note use your lab server IP as shown in the Linux Academy control panel

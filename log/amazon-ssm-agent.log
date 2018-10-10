@@ -1,0 +1,32 @@
+2016-04-22 16:35:45 INFO [Start @ agent.go.53] Starting Agent: amazon-ssm-agent - v1.1.0.0
+2016-04-22 16:35:45 INFO [Start @ agent.go.54] OS: linux, Arch: amd64
+2016-04-22 16:35:45 INFO [SetRegion @ instanceid.go.71] trying to get region from metadata...
+2016-04-22 16:35:45 INFO [SetRegion @ instanceid.go.80] found region from metadata = us-west-2
+2016-04-22 16:35:45 DEBUG [Start @ agent.go.62] Using region:us-west-2
+2016-04-22 16:35:45 INFO [SetInstanceID @ instanceid.go.39] trying to get instanceid from metadata...
+2016-04-22 16:35:45 INFO [SetInstanceID @ instanceid.go.48] found instanceid from metadata = i-292238ee
+2016-04-22 16:35:45 INFO [initializeBookkeepingLocations @ agent.go.128] Initializing bookkeeping folders
+2016-04-22 16:35:45 INFO [Execute @ processor.go.870] [instanceID=i-292238ee] [MessageProcessor] starting mdsprocessor polling
+2016-04-22 16:35:45 DEBUG [processOlderMessages @ processor.go.271] [instanceID=i-292238ee] [MessageProcessor] No messages to process from /var/log/amazon/ssm/i-292238ee/command/state/pending
+2016-04-22 16:35:45 DEBUG [processMessagesFromCurrent @ processor.go.331] [instanceID=i-292238ee] [MessageProcessor] no older messages to process from /var/log/amazon/ssm/i-292238ee/command/state/current
+2016-04-22 16:35:45 DEBUG [scheduleInMinutes @ healthcheck.go.96] [instanceID=i-292238ee] [HealthCheck] HealthCheck frequency is every 5 minutes.
+2016-04-22 16:35:45 INFO [updateHealth @ healthcheck.go.60] [instanceID=i-292238ee] [HealthCheck] HealthCheck reporting agent health.
+2016-04-22 16:35:45 DEBUG [getPlatformDetails @ platform_unix.go.49] [instanceID=i-292238ee] [HealthCheck] getting platform details
+2016-04-22 16:35:45 DEBUG [UpdateInstanceInformation @ service.go.135] [instanceID=i-292238ee] [HealthCheck] Calling UpdateInstanceInformation with params{
+  AgentStatus: "Active",
+  AgentVersion: "1.1.0.0",
+  InstanceId: "i-292238ee",
+  PlatformName: "Red Hat Enterprise Linux Server",
+  PlatformType: "Linux",
+  PlatformVersion: "7.2 (Maipo)"
+}
+2016-04-22 16:35:45 DEBUG [loop @ processor.go.185] [instanceID=i-292238ee] [MessageProcessor] mdsprocessor's stoppolicy before polling is {Name: MessageProcessor; errorCount: 0; MaximumErrorThreshold: 10; lastSuccessfulRequestTime: 2016-04-22 16:35:45.475321637 -0400 EDT; StopTimeDuration 10s}
+2016-04-22 16:35:45 DEBUG [pollOnce @ processor.go.520] [instanceID=i-292238ee] [MessageProcessor] Polling for messages
+2016-04-22 16:35:45 DEBUG [GetMessages @ service.go.112] [instanceID=i-292238ee] [MessageProcessor] Calling GetMessages with params{
+  Destination: "i-292238ee",
+  MessagesRequestId: "78a618ba-c3b4-4f93-bf4b-3db4eaca7e35",
+  VisibilityTimeoutInSeconds: 10
+}
+2016-04-22 16:35:45 DEBUG [UpdateInstanceInformation @ service.go.141] [instanceID=i-292238ee] [HealthCheck] UpdateInstanceInformation Response{
+
+}
